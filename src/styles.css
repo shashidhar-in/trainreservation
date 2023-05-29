@@ -1,0 +1,96 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.seat-reservation {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 11px 20px;
+  border-radius: 5px;
+  width: 10rem; 
+}
+
+.seat-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  cursor:none;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.available {
+  background-color: #e5e5e5;
+}
+
+.reserved {
+  background-color: green;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: #ffc107;
+}
+
+.booked {
+  background-color: #dc3545;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
