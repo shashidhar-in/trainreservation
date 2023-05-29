@@ -15,6 +15,8 @@ functionality for this application.
 - Output will be seats numbers that have been booked for the user along with the display of all the
 seats and their availability status through color
 
+**:memo: Note:** _I have used local storage to demonstrate the booking process._
+
 **[:link: Database stucture](DataBaseStucture.js)**
 
 **[:link: Hosted link](https://train-reservation.netlify.app/)** 
